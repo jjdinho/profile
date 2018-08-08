@@ -11,7 +11,7 @@ body {
 }
 
 h1, h2, h3 {
-  color: #017688;
+  color: #2B8BF9;
   font-family: 'Roboto', sans-serif;
   line-height: 1em;
 }
@@ -43,7 +43,7 @@ a:hover {
 }
 
 .text-theme-blue {
-  color: #017688;
+  color: #2B8BF9;
 }
 
 /* Small devices */
@@ -52,7 +52,8 @@ a:hover {
 }
 
 .col-left {
-  background: linear-gradient(#01A7C2, #017688)
+  /*background: linear-gradient(#01A7C2, #017688);*/
+  background: linear-gradient(#3083F9, #5542F6);
 }
 
 .col-right {
@@ -80,7 +81,7 @@ a:hover {
 
 .header-blue-3 {
   font-size: 3em;
-  color: #017688;
+  color: #2B8BF9;
   font-weight: 700;
   line-height: 1.2em;
 }
@@ -90,7 +91,7 @@ a:hover {
   height: 50px;
   width: 30px;
   border-radius: 20px;
-  border: 2px solid #017688;
+  border: 2px solid #2B8BF9;
   transition: all .2s ease-in-out;
 }
 
@@ -106,7 +107,7 @@ a:hover {
   position: absolute;
   top: 7px;
   left: 10px;
-  background-color: #017688;
+  background-color: #2B8BF9;
   border-radius: 50%;
   opacity: 1;
   animation-timing-function: ease;
@@ -209,7 +210,7 @@ a:hover {
   }
   #personal-title .h5 {
     display: inline-block;
-    color: #017688;
+    color: #2B8BF9;
     font-weight: 700;
   }
   #personal-bio {
@@ -222,7 +223,7 @@ a:hover {
     margin: 0 auto;
     font-size: 3em;
     font-weight: 200;
-    color: #017688;
+    color: #2B8BF9;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -256,5 +257,5 @@ a:hover {
   font-family: 'Roboto';
   font-weight: 400;
   font-size: 2em;
-  color: #017688;
+  color: #2B8BF9;
 }
