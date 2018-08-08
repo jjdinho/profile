@@ -30,7 +30,7 @@ a {
 }
 
 a:hover {
-  color: #ED9E21;
+  color: #05B582;
   transition: 0.1s;
 }
 
@@ -68,7 +68,7 @@ a:hover {
 
 #social-media-menu a:hover {
   /*opacity: 0.5;*/
-  color: #ED9E21;
+  color: #05B582;
 }
 
 .text-hero {
@@ -96,7 +96,7 @@ a:hover {
 }
 
 .mouse-animation:hover {
-  border-color: #ED9E21;
+  border-color: #05B582;
   transform: scale(1.1);
 }
 
@@ -115,7 +115,7 @@ a:hover {
 }
 
 .mouse-animation:hover:before {
-  background-color: #ED9E21;
+  background-color: #05B582;
 }
 
 @keyframes mouse {
@@ -135,12 +135,12 @@ a:hover {
 }
 
 /*.scroll-down:hover span {
-  border-color: #ED9E21;
+  border-color: #05B582;
   transform: scale(1.1);
 }*/
 
 /*.scroll-down:hover {
-  color: #ED9E21;
+  color: #05B582;
   transform: scale(1.1);
 }*/
 
@@ -191,7 +191,7 @@ a:hover {
     height: 100vh;
     background: linear-gradient(#EAEBED, #DEDEE0);
     padding: 20px;
-    border-top: 2px solid #ED9E21;
+    border-top: 2px solid #05B582;
   }
   .more-content {
     display: flex;
@@ -203,7 +203,7 @@ a:hover {
   }
   .wrapper {
     /*display: flex;*/
-    border-bottom: 2px solid #ED9E21;
+    border-bottom: 2px solid #05B582;
   }
   #personal-title {
     padding: 20px;
@@ -215,7 +215,7 @@ a:hover {
   }
   #personal-bio {
     padding: 20px;
-    border-top: 2px solid #ED9E21
+    border-top: 2px solid #05B582
   }
   .scroll-down {
     height: 100%;
@@ -238,7 +238,7 @@ a:hover {
   border: 2px solid transparent;
 }
 .project-card:hover {
-  border: 2px solid #ED9E21;
+  border: 2px solid #05B582;
 }
 .project-card:hover .project-card-img {
   opacity: 1;
