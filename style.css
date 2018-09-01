@@ -2,16 +2,20 @@
 
 body {
   margin: 0;
-  background-color: #EDEDED;
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
   color: rgb(50,50,50);
   font-size: 1em;
   line-height: 1.5em;
+  background-color: #F6F9FC;
 }
 
 h1, h2, h3 {
+<<<<<<< HEAD
   color: #017688;
+=======
+  color: #3498db;
+>>>>>>> master
   font-family: 'Roboto', sans-serif;
   line-height: 1em;
 }
@@ -25,11 +29,12 @@ h2, h3 {
 }
 
 a {
-  color: #02C39A;
+  color: #2ecc71;
   text-decoration: none;
 }
 
 a:hover {
+<<<<<<< HEAD
   color: #ED9E21;
   transition: 0.1s;
 }
@@ -151,6 +156,168 @@ a:hover {
     flex: 0 0 50%;
     height: 200vh;
   }
+=======
+  color: #2ecc71;
+  transition: 0.1s;
+}
+
+.pb-20 {
+  padding-bottom: 20px;
+}
+
+.ptb-10 {
+  padding: 10px 0;
+}
+
+.text-theme-blue {
+  color: #3498db;
+}
+
+#social-media-menu a {
+  color: white;
+  font-size: 2em;
+  padding: 10px;
+}
+
+#social-media-menu a:hover {
+  /*opacity: 0.5;*/
+  color: #2ecc71;
+}
+
+.header-blue-3 {
+  font-size: 3em;
+  color: #3498db;
+  font-weight: 700;
+  line-height: 1.2em;
+}
+
+.mouse-animation {
+  position: relative;
+  height: 50px;
+  width: 30px;
+  border-radius: 20px;
+  border: 2px solid #3498db;
+  transition: all .2s ease-in-out;
+}
+
+.mouse-animation:hover {
+  border-color: #2ecc71;
+  transform: scale(1.1);
+}
+
+.mouse-animation::before {
+  content: "";
+  width: 6px;
+  height: 6px;
+  position: absolute;
+  top: 7px;
+  left: 10px;
+  background-color: #3498db;
+  border-radius: 50%;
+  opacity: 1;
+  animation-timing-function: ease;
+  animation: mouse 2s infinite;
+}
+
+.mouse-animation:hover:before {
+  background-color: #2ecc71;
+}
+
+@keyframes mouse {
+  from {
+    opacity: 1;
+    top: 10px;
+  }
+  to {
+    opacity: 0;
+    top: 35px;
+  }
+}
+
+.children-inline-no-margin > * {
+  display: inline-block;
+  margin-bottom: 0;
+}
+
+/*.scroll-down:hover span {
+  border-color: #2ecc71;
+  transform: scale(1.1);
+}*/
+
+/*.scroll-down:hover {
+  color: #2ecc71;
+  transform: scale(1.1);
+}*/
+
+/* Mobile Devices ========================================== */
+.mobile-header-text {
+  color: rgb(245,245,245);
+  position: absolute;
+  top: 0;
+  padding: 40px;
+}
+.col-left {
+  /*background: linear-gradient(#3083F9, #5542F6);*/
+  /*color: #05B582;*/
+  background: linear-gradient(#3498db, #2980b9);
+  width: 100vw;
+  height: 100vh;
+}
+.col-right {
+  padding: 0;
+  width: 100vw;
+}
+.dynamic-wrapper {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 2px solid #2ecc71;
+}
+#social-media-menu {
+  position: absolute;
+  bottom: 50px;
+  left: -57px;
+  width: 112px;
+  margin-left: 50%;
+}
+.text-hero {
+  font-size: 3.5em;
+  color: rgb(245,245,245);
+  font-weight: 700;
+  line-height: 1.2em;
+  padding: 0 40px;
+}
+#personal-title {
+  padding: 20px;
+}
+#personal-title .h5 {
+  display: inline-block;
+  color: #3498db;
+  font-weight: 700;
+}
+#personal-bio {
+  padding: 20px;
+  border-top: 2px solid #2ecc71
+}
+.scroll-down {
+  display: none;
+}
+#main-content {
+  padding: 20px;
+}
+
+/* Medium devices and up =============================================== */
+@media (min-width: 768px) {
+  .dynamic-wrapper {
+    display: flex;
+    flex-direction: row;
+  }
+  .col-right {
+/*    width: 50%;
+    margin-left: 50%;*/
+    flex: 0 0 50%;
+    height: 200vh;
+  }
+>>>>>>> master
   .col-left {
     /*display: flex;
     align-items: center;*/
@@ -166,6 +333,7 @@ a:hover {
   #image-hero {
     height: 25%;
     /*background: linear-gradient(rgb(100,100,100), rgb(130,130,130))*/
+<<<<<<< HEAD
     background-image: url('https://picsum.photos/g/700/400/?random');
     background-size: cover;
     background-position: center;
@@ -180,6 +348,15 @@ a:hover {
   #intro-content {
     height: 25%;
     background-color: #EAEBED;
+=======
+    background-image: url('images/Jakeprofile.jpeg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  #intro-content {
+    height: 25%;
+>>>>>>> master
     position: relative;
     display: flex;
     flex-direction: column;
@@ -188,9 +365,15 @@ a:hover {
     display: flex;
     align-items: center;
     height: 100vh;
+<<<<<<< HEAD
     background: linear-gradient(#EAEBED, #DEDEE0);
     padding: 20px;
     border-top: 2px solid #ED9E21;
+=======
+    /*background: linear-gradient(#EAEBED, #DEDEE0);*/
+    background-color: #F6F9FC;
+    border-top: 2px solid #2ecc71;
+>>>>>>> master
   }
   .more-content {
     display: flex;
@@ -198,6 +381,7 @@ a:hover {
     align-items: center;
     height: 100vh;
     width: 100%;
+<<<<<<< HEAD
     background-color: rgb(245,245,245);
   }
   .wrapper {
@@ -227,10 +411,31 @@ a:hover {
     align-items: center;
     justify-content: center;
     transition: all .3s ease-in-out;
+=======
+  }
+  .scroll-down {
+    height: 100%;
+    padding-bottom: 30px;
+    margin: 0 auto;
+    font-size: 3em;
+    font-weight: 200;
+    color: #3498db;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .3s ease-in-out;
+  }
+  .mobile-header-text {
+    display: none;
+  }
+  .text-hero {
+    font-size: 3.8em;
+>>>>>>> master
   }
 }
 
 .project-card {
+<<<<<<< HEAD
   border-radius: 3px;
   transition: all 0.3s ease-in-out;
   box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
@@ -238,6 +443,15 @@ a:hover {
 }
 .project-card:hover {
   border: 2px solid #ED9E21;
+=======
+  /*border-radius: 3px;*/
+  transition: all 0.3s ease-in-out;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+  border-bottom: 5px solid transparent;
+}
+.project-card:hover {
+  border-bottom: 5px solid #2ecc71;
+>>>>>>> master
 }
 .project-card:hover .project-card-img {
   opacity: 1;
@@ -256,5 +470,12 @@ a:hover {
   font-family: 'Roboto';
   font-weight: 400;
   font-size: 2em;
+<<<<<<< HEAD
   color: #017688;
+=======
+  color: #3498db;
+}
+.box {
+
+>>>>>>> master
 }
