@@ -12,10 +12,14 @@ body {
 
 h1, h2, h3 {
 <<<<<<< HEAD
+<<<<<<< HEAD
   color: #017688;
 =======
   color: #3498db;
 >>>>>>> master
+=======
+  color: #3498db;
+>>>>>>> 88047eb95f140f23197bb235944ac178a1dd3498
   font-family: 'Roboto', sans-serif;
   line-height: 1em;
 }
@@ -34,6 +38,7 @@ a {
 }
 
 a:hover {
+<<<<<<< HEAD
 <<<<<<< HEAD
   color: #ED9E21;
   transition: 0.1s;
@@ -157,6 +162,8 @@ a:hover {
     height: 200vh;
   }
 =======
+=======
+>>>>>>> 88047eb95f140f23197bb235944ac178a1dd3498
   color: #2ecc71;
   transition: 0.1s;
 }
@@ -317,7 +324,10 @@ a:hover {
     flex: 0 0 50%;
     height: 200vh;
   }
+<<<<<<< HEAD
 >>>>>>> master
+=======
+>>>>>>> 88047eb95f140f23197bb235944ac178a1dd3498
   .col-left {
     /*display: flex;
     align-items: center;*/
@@ -334,6 +344,7 @@ a:hover {
     height: 25%;
     /*background: linear-gradient(rgb(100,100,100), rgb(130,130,130))*/
 <<<<<<< HEAD
+<<<<<<< HEAD
     background-image: url('https://picsum.photos/g/700/400/?random');
     background-size: cover;
     background-position: center;
@@ -349,6 +360,8 @@ a:hover {
     height: 25%;
     background-color: #EAEBED;
 =======
+=======
+>>>>>>> 88047eb95f140f23197bb235944ac178a1dd3498
     background-image: url('images/Jakeprofile.jpeg');
     background-size: contain;
     background-repeat: no-repeat;
@@ -356,7 +369,10 @@ a:hover {
   }
   #intro-content {
     height: 25%;
+<<<<<<< HEAD
 >>>>>>> master
+=======
+>>>>>>> 88047eb95f140f23197bb235944ac178a1dd3498
     position: relative;
     display: flex;
     flex-direction: column;
@@ -366,6 +382,7 @@ a:hover {
     align-items: center;
     height: 100vh;
 <<<<<<< HEAD
+<<<<<<< HEAD
     background: linear-gradient(#EAEBED, #DEDEE0);
     padding: 20px;
     border-top: 2px solid #ED9E21;
@@ -374,6 +391,11 @@ a:hover {
     background-color: #F6F9FC;
     border-top: 2px solid #2ecc71;
 >>>>>>> master
+=======
+    /*background: linear-gradient(#EAEBED, #DEDEE0);*/
+    background-color: #F6F9FC;
+    border-top: 2px solid #2ecc71;
+>>>>>>> 88047eb95f140f23197bb235944ac178a1dd3498
   }
   .more-content {
     display: flex;
@@ -381,6 +403,7 @@ a:hover {
     align-items: center;
     height: 100vh;
     width: 100%;
+<<<<<<< HEAD
 <<<<<<< HEAD
     background-color: rgb(245,245,245);
   }
@@ -412,6 +435,8 @@ a:hover {
     justify-content: center;
     transition: all .3s ease-in-out;
 =======
+=======
+>>>>>>> 88047eb95f140f23197bb235944ac178a1dd3498
   }
   .scroll-down {
     height: 100%;
@@ -430,11 +455,15 @@ a:hover {
   }
   .text-hero {
     font-size: 3.8em;
+<<<<<<< HEAD
 >>>>>>> master
+=======
+>>>>>>> 88047eb95f140f23197bb235944ac178a1dd3498
   }
 }
 
 .project-card {
+<<<<<<< HEAD
 <<<<<<< HEAD
   border-radius: 3px;
   transition: all 0.3s ease-in-out;
@@ -444,6 +473,8 @@ a:hover {
 .project-card:hover {
   border: 2px solid #ED9E21;
 =======
+=======
+>>>>>>> 88047eb95f140f23197bb235944ac178a1dd3498
   /*border-radius: 3px;*/
   transition: all 0.3s ease-in-out;
   box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
@@ -451,7 +482,10 @@ a:hover {
 }
 .project-card:hover {
   border-bottom: 5px solid #2ecc71;
+<<<<<<< HEAD
 >>>>>>> master
+=======
+>>>>>>> 88047eb95f140f23197bb235944ac178a1dd3498
 }
 .project-card:hover .project-card-img {
   opacity: 1;
@@ -471,6 +505,7 @@ a:hover {
   font-weight: 400;
   font-size: 2em;
 <<<<<<< HEAD
+<<<<<<< HEAD
   color: #017688;
 =======
   color: #3498db;
@@ -478,4 +513,9 @@ a:hover {
 .box {
 
 >>>>>>> master
+=======
+  color: #3498db;
+}
+.box {
+>>>>>>> 88047eb95f140f23197bb235944ac178a1dd3498
 }
