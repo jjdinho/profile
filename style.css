@@ -46,12 +46,6 @@ a:hover {
   color: #3498db;
 }
 
-/* Small devices */
-.col-right, .col-left {
-  /*height: 100vh;*/
-}
-
-
 #social-media-menu a {
   color: white;
   font-size: 2em;
@@ -61,14 +55,6 @@ a:hover {
 #social-media-menu a:hover {
   /*opacity: 0.5;*/
   color: #2ecc71;
-}
-
-.text-hero {
-  font-size: 4em;
-  color: rgb(245,245,245);
-  font-weight: 700;
-  line-height: 1.2em;
-  padding: 0 40px;
 }
 
 .header-blue-3 {
@@ -136,11 +122,12 @@ a:hover {
   transform: scale(1.1);
 }*/
 
+/* Mobile Devices ========================================== */
 .mobile-header-text {
   color: rgb(245,245,245);
   position: absolute;
   top: 0;
-  padding: 20px;
+  padding: 40px;
 }
 .col-left {
   /*background: linear-gradient(#3083F9, #5542F6);*/
@@ -158,13 +145,45 @@ a:hover {
   flex-direction: column;
   border-bottom: 2px solid #2ecc71;
 }
+#social-media-menu {
+  position: absolute;
+  bottom: 50px;
+  left: -57px;
+  width: 112px;
+  margin-left: 50%;
+}
+.text-hero {
+  font-size: 3.5em;
+  color: rgb(245,245,245);
+  font-weight: 700;
+  line-height: 1.2em;
+  padding: 0 40px;
+}
+#personal-title {
+  padding: 20px;
+}
+#personal-title .h5 {
+  display: inline-block;
+  color: #3498db;
+  font-weight: 700;
+}
+#personal-bio {
+  padding: 20px;
+  border-top: 2px solid #2ecc71
+}
+.scroll-down {
+  display: none;
+}
+#main-content {
+  padding: 20px;
+}
 
-/* Medium devices and up */
+/* Medium devices and up =============================================== */
 @media (min-width: 768px) {
-  /*.dynamic-wrapper {
+  .dynamic-wrapper {
     display: flex;
     flex-direction: row;
-  }*/
+  }
   .col-right {
 /*    width: 50%;
     margin-left: 50%;*/
@@ -191,13 +210,6 @@ a:hover {
     background-repeat: no-repeat;
     background-position: center;
   }
-  #social-media-menu {
-    position: absolute;
-    bottom: 50px;
-    left: 25%;
-    width: 200px;
-    margin-left: 100px;
-  }
   #intro-content {
     height: 25%;
     position: relative;
@@ -210,7 +222,6 @@ a:hover {
     height: 100vh;
     /*background: linear-gradient(#EAEBED, #DEDEE0);*/
     background-color: #F6F9FC;
-    padding: 20px;
     border-top: 2px solid #2ecc71;
   }
   .more-content {
@@ -219,18 +230,6 @@ a:hover {
     align-items: center;
     height: 100vh;
     width: 100%;
-  }
-  #personal-title {
-    padding: 20px;
-  }
-  #personal-title .h5 {
-    display: inline-block;
-    color: #3498db;
-    font-weight: 700;
-  }
-  #personal-bio {
-    padding: 20px;
-    border-top: 2px solid #2ecc71
   }
   .scroll-down {
     height: 100%;
@@ -246,6 +245,9 @@ a:hover {
   }
   .mobile-header-text {
     display: none;
+  }
+  .text-hero {
+    font-size: 3.8em;
   }
 }
 
