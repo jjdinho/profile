@@ -11,15 +11,7 @@ body {
 }
 
 h1, h2, h3 {
-<<<<<<< HEAD
-<<<<<<< HEAD
-  color: #017688;
-=======
   color: #3498db;
->>>>>>> master
-=======
-  color: #3498db;
->>>>>>> 88047eb95f140f23197bb235944ac178a1dd3498
   font-family: 'Roboto', sans-serif;
   line-height: 1em;
 }
@@ -38,132 +30,6 @@ a {
 }
 
 a:hover {
-<<<<<<< HEAD
-<<<<<<< HEAD
-  color: #ED9E21;
-  transition: 0.1s;
-}
-
-.pb-20 {
-  padding-bottom: 20px;
-}
-
-.ptb-10 {
-  padding: 10px 0;
-}
-
-.text-theme-blue {
-  color: #017688;
-}
-
-/* Small devices */
-.col-right, .col-left {
-  /*height: 100vh;*/
-}
-
-.col-left {
-  background: linear-gradient(#01A7C2, #017688)
-}
-
-.col-right {
-  padding: 0;
-}
-
-#social-media-menu a {
-  color: white;
-  font-size: 2em;
-  padding: 10px;
-}
-
-#social-media-menu a:hover {
-  /*opacity: 0.5;*/
-  color: #ED9E21;
-}
-
-.text-hero {
-  font-size: 4em;
-  color: rgb(245,245,245);
-  font-weight: 700;
-  line-height: 1.2em;
-  padding: 0 40px;
-}
-
-.header-blue-3 {
-  font-size: 3em;
-  color: #017688;
-  font-weight: 700;
-  line-height: 1.2em;
-}
-
-.mouse-animation {
-  position: relative;
-  height: 50px;
-  width: 30px;
-  border-radius: 20px;
-  border: 2px solid #017688;
-  transition: all .2s ease-in-out;
-}
-
-.mouse-animation:hover {
-  border-color: #ED9E21;
-  transform: scale(1.1);
-}
-
-.mouse-animation::before {
-  content: "";
-  width: 6px;
-  height: 6px;
-  position: absolute;
-  top: 7px;
-  left: 10px;
-  background-color: #017688;
-  border-radius: 50%;
-  opacity: 1;
-  animation-timing-function: ease;
-  animation: mouse 2s infinite;
-}
-
-.mouse-animation:hover:before {
-  background-color: #ED9E21;
-}
-
-@keyframes mouse {
-  from {
-    opacity: 1;
-    top: 10px;
-  }
-  to {
-    opacity: 0;
-    top: 35px;
-  }
-}
-
-.children-inline-no-margin > * {
-  display: inline-block;
-  margin-bottom: 0;
-}
-
-/*.scroll-down:hover span {
-  border-color: #ED9E21;
-  transform: scale(1.1);
-}*/
-
-/*.scroll-down:hover {
-  color: #ED9E21;
-  transform: scale(1.1);
-}*/
-
-/* Medium devices and up */
-@media (min-width: 768px) {
-  .col-right {
-/*    width: 50%;
-    margin-left: 50%;*/
-    flex: 0 0 50%;
-    height: 200vh;
-  }
-=======
-=======
->>>>>>> 88047eb95f140f23197bb235944ac178a1dd3498
   color: #2ecc71;
   transition: 0.1s;
 }
@@ -324,10 +190,6 @@ a:hover {
     flex: 0 0 50%;
     height: 200vh;
   }
-<<<<<<< HEAD
->>>>>>> master
-=======
->>>>>>> 88047eb95f140f23197bb235944ac178a1dd3498
   .col-left {
     /*display: flex;
     align-items: center;*/
@@ -343,25 +205,6 @@ a:hover {
   #image-hero {
     height: 25%;
     /*background: linear-gradient(rgb(100,100,100), rgb(130,130,130))*/
-<<<<<<< HEAD
-<<<<<<< HEAD
-    background-image: url('https://picsum.photos/g/700/400/?random');
-    background-size: cover;
-    background-position: center;
-  }
-  #social-media-menu {
-    position: absolute;
-    bottom: 50px;
-    left: 25%;
-    width: 200px;
-    margin-left: 100px;
-  }
-  #intro-content {
-    height: 25%;
-    background-color: #EAEBED;
-=======
-=======
->>>>>>> 88047eb95f140f23197bb235944ac178a1dd3498
     background-image: url('images/Jakeprofile.jpeg');
     background-size: contain;
     background-repeat: no-repeat;
@@ -369,10 +212,6 @@ a:hover {
   }
   #intro-content {
     height: 25%;
-<<<<<<< HEAD
->>>>>>> master
-=======
->>>>>>> 88047eb95f140f23197bb235944ac178a1dd3498
     position: relative;
     display: flex;
     flex-direction: column;
@@ -381,21 +220,9 @@ a:hover {
     display: flex;
     align-items: center;
     height: 100vh;
-<<<<<<< HEAD
-<<<<<<< HEAD
-    background: linear-gradient(#EAEBED, #DEDEE0);
-    padding: 20px;
-    border-top: 2px solid #ED9E21;
-=======
     /*background: linear-gradient(#EAEBED, #DEDEE0);*/
     background-color: #F6F9FC;
     border-top: 2px solid #2ecc71;
->>>>>>> master
-=======
-    /*background: linear-gradient(#EAEBED, #DEDEE0);*/
-    background-color: #F6F9FC;
-    border-top: 2px solid #2ecc71;
->>>>>>> 88047eb95f140f23197bb235944ac178a1dd3498
   }
   .more-content {
     display: flex;
@@ -403,40 +230,6 @@ a:hover {
     align-items: center;
     height: 100vh;
     width: 100%;
-<<<<<<< HEAD
-<<<<<<< HEAD
-    background-color: rgb(245,245,245);
-  }
-  .wrapper {
-    /*display: flex;*/
-    border-bottom: 2px solid #ED9E21;
-  }
-  #personal-title {
-    padding: 20px;
-  }
-  #personal-title .h5 {
-    display: inline-block;
-    color: #017688;
-    font-weight: 700;
-  }
-  #personal-bio {
-    padding: 20px;
-    border-top: 2px solid #ED9E21
-  }
-  .scroll-down {
-    height: 100%;
-    padding-bottom: 30px;
-    margin: 0 auto;
-    font-size: 3em;
-    font-weight: 200;
-    color: #017688;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: all .3s ease-in-out;
-=======
-=======
->>>>>>> 88047eb95f140f23197bb235944ac178a1dd3498
   }
   .scroll-down {
     height: 100%;
@@ -455,26 +248,10 @@ a:hover {
   }
   .text-hero {
     font-size: 3.8em;
-<<<<<<< HEAD
->>>>>>> master
-=======
->>>>>>> 88047eb95f140f23197bb235944ac178a1dd3498
   }
 }
 
 .project-card {
-<<<<<<< HEAD
-<<<<<<< HEAD
-  border-radius: 3px;
-  transition: all 0.3s ease-in-out;
-  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
-  border: 2px solid transparent;
-}
-.project-card:hover {
-  border: 2px solid #ED9E21;
-=======
-=======
->>>>>>> 88047eb95f140f23197bb235944ac178a1dd3498
   /*border-radius: 3px;*/
   transition: all 0.3s ease-in-out;
   box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
@@ -482,10 +259,6 @@ a:hover {
 }
 .project-card:hover {
   border-bottom: 5px solid #2ecc71;
-<<<<<<< HEAD
->>>>>>> master
-=======
->>>>>>> 88047eb95f140f23197bb235944ac178a1dd3498
 }
 .project-card:hover .project-card-img {
   opacity: 1;
@@ -504,18 +277,8 @@ a:hover {
   font-family: 'Roboto';
   font-weight: 400;
   font-size: 2em;
-<<<<<<< HEAD
-<<<<<<< HEAD
-  color: #017688;
-=======
   color: #3498db;
 }
 .box {
 
->>>>>>> master
-=======
-  color: #3498db;
-}
-.box {
->>>>>>> 88047eb95f140f23197bb235944ac178a1dd3498
 }
